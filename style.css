@@ -2,6 +2,8 @@
 
 html {
     background: #E4DFD8;
+    margin: 0px;
+    padding: 0px;
 }
 .header-container {
     background: #1E9C99;
@@ -56,9 +58,56 @@ ul {
     background: rgb(17, 17, 154);
 }
 
+.title-container {
+    background: #064D51;
+    background: linear-gradient(#6BBCB1, #064D51);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    margin-top: 0px;
+}
 
+.title-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 35px;
+}
 
+.title-main {
+    margin: 0px;
+    font-size: 34px;
+    font-weight: 900;
+    color: white;
+    padding: 0px;
+}
 
+.subtitle {
+    color: white;
+    font-weight: 400;
+    margin: 0px;
+}
+.subtitle > span{
+    color: yellow;
+    margin: 0px;
+}
 
-  /*  border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px; */
+.webbtech-title > p {
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+}
+
+#journey {
+    margin-top: 30px;
+
+}
+
+.credit {
+    color: white;
+    font-weight: 50;
+    font-style: italic;
+    font-size: 8px;
+    margin: 0px;
+}

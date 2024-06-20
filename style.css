@@ -59,6 +59,9 @@ ul {
 }
 
 .title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background: #064D51;
     background: linear-gradient(#6BBCB1, #064D51);
     border-bottom-right-radius: 20px;
@@ -110,4 +113,33 @@ ul {
     font-style: italic;
     font-size: 8px;
     margin: 0px;
+}
+
+.feature {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    padding: 60px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
 }

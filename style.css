@@ -67,6 +67,7 @@ ul {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px; 
     margin-top: 0px;
+    box-shadow: 0px 15px 50px #064D51;
 }
 
 .title-box {
@@ -142,4 +143,57 @@ ul {
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+}
+
+.about-container .about {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.para-about {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.odin-container {
+    margin: 20px;
+    padding: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background: linear-gradient(to right, #064D51, #6BBCB1, #064D51);
+    border: 5px solid #064D51; box-shadow: 10px 10px 50px #064D51;
+}
+
+.odin-project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+.odins-text {
+    font-size: 44px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 3px;
+}
+
+.para-for-odin {
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.odin-para {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
 }

@@ -191,8 +191,6 @@ ul {
     background: linear-gradient(to right, #064D51, #6BBCB1, #064D51);
     border: 5px solid #064D51; box-shadow: 10px 10px 50px #064D51;
     max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .odin-project {
@@ -201,7 +199,6 @@ ul {
     align-items: center;
     justify-content: space-around;
     gap: 4rem;
-    max-width: 100%;
     flex-wrap: wrap;
 }
 

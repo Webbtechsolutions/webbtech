@@ -16,7 +16,7 @@ img {
 }
 
 body {
-    width: auto;
+    width: 100%;
 }
 
 .header-container {
@@ -33,6 +33,7 @@ body {
     margin-left: 0px;
     margin-right: auto;
     align-items: flex-start;
+    position: relative;
 }
 
 ul {
@@ -45,6 +46,7 @@ ul {
     flex-direction: row;
     justify-content: center;    
     align-items: center;
+    flex-wrap: wrap;
     font-weight: 900;
     gap: 30px;
     padding: 20px;
@@ -77,6 +79,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background: #064D51;
     background: linear-gradient(#6BBCB1, #064D51);
     border-bottom-right-radius: 20px;
@@ -91,13 +94,15 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
     padding: 10px;
     gap: 35px;
 }
 
 .title-main {
     margin: 0px;
-    font-size: 38px;
+    font-size: 50px;
     font-weight: 900;
     color: white;
     padding: 0px;
@@ -107,6 +112,7 @@ ul {
     color: white;
     font-weight: 400;
     margin: 0px;
+    font-size: 30px;
 }
 .subtitle > span{
     color: yellow;
@@ -153,6 +159,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    max-width: 100%;
 }
 
 .about {
@@ -184,6 +191,9 @@ ul {
     margin-left: 0px;
     background: linear-gradient(to right, #064D51, #6BBCB1, #064D51);
     border: 5px solid #064D51; box-shadow: 10px 10px 50px #064D51;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .odin-project {
@@ -192,6 +202,8 @@ ul {
     align-items: center;
     justify-content: space-around;
     gap: 4rem;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .odins-text {
@@ -228,10 +240,11 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     font-size: 28px;
     border-bottom: 4px solid #064D51;
-    width: 100%;
+    max-width: 100%;
 }
 
 .my-projects {
